@@ -1,1 +1,3 @@
 # Gets closing price electricity for Euro countries 
+
+print("test")
