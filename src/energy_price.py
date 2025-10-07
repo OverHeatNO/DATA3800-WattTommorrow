@@ -20,10 +20,5 @@ plt.xlabel('Date')
 plt.ylabel('Price (EUR/MWhe)')
 plt.title('Electricity Prices Over Time')
 plt.legend()
-<<<<<<< HEAD
 plt.grid(True)
 plt.show()
-=======
-plt.grid(True) 
-plt.show()
->>>>>>> c84d0acb9a850f571bfe3ba46c83b8c4dd33ccf3
