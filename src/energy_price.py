@@ -1,4 +1,5 @@
 # Gets closing price electricity for Euro countries 
+<<<<<<< HEAD
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
@@ -22,3 +23,7 @@ plt.title('Electricity Prices Over Time')
 plt.legend()
 plt.grid(True)
 plt.show()
+=======
+
+print("test")
+>>>>>>> a3719a9bd2d353eedbf0f89dff9211cbbcf67f35
