@@ -16,6 +16,10 @@ import argparse, sys
 import pandas as pd
 import numpy as np
 import yfinance as yf
+import sys
+
+sys.argv = ['', '--eur', '--out', 'fuels_daily_with_eur.csv']
+
 
 def dl_series(ticker: str, start: str, end: str) -> pd.Series:
     df = yf.download(ticker, start=start, end=end, auto_adjust=False, progress=False, group_by="column")
