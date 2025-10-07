@@ -1,4 +1,4 @@
-# DATA3800-WattTommorrow
+# DATA3800-WattTomorrow
 Semester project for DATA3800 - Data Science with Scripting
 
 ## What is left to do:
@@ -13,4 +13,4 @@ Semester project for DATA3800 - Data Science with Scripting
 - Model evaluation
 - "Fast API" for access of our trained prediction model
 - Make Rag/GPT. Use "gradio api" for interface
-- Making rapport on our findings
+- Making report on our findings
