@@ -11,4 +11,6 @@ Semester project for DATA3800 - Data Science with Scripting
 - Data feature selection
 - Model training
 - Model evaluation
+- "Fast API" for access of our trained prediction model
+- Make Rag/GPT. Use "gradio api" for interface
 - Making rapport on our findings
