@@ -14,3 +14,22 @@ Semester project for DATA3800 - Data Science with Scripting
 - "Fast API" for access of our trained prediction model
 - Make Rag/GPT. Use "gradio api" for interface
 - Making report on our findings
+
+
+
+## Package instalation with pip in venv
+| Library        | Purpose                                                                               |
+| -------------- | ------------------------------------------------------------------------------------- |
+| **meteostat**  | For accessing historical weather and climate data (e.g., temperature, precipitation). |
+| **pandas**     | Data manipulation and analysis.                                                       |
+| **numpy**      | Numerical operations on arrays and matrices.                                          |
+| **yfinance**   | Fetch financial and stock market data from Yahoo Finance.                             |
+| **seaborn**    | Statistical data visualization (works with Matplotlib).                               |
+| **matplotlib** | Core plotting and graphing library.                                                   |
+| **kagglehub**  | For downloading datasets from Kaggle programmatically.                                |
+| **entsoe-py**  | Access to ENTSO-E (European electricity market) data.                                 |
+
+
+```
+pip install meteostat pandas numpy yfinance seaborn matplotlib kagglehub entsoe-py
+```
