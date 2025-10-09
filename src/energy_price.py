@@ -3,8 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import kagglehub
+import seaborn as sns
 # ✅ CORRECT line using the relative path from the 'src' directory
-df = pd.read_csv('content/european_wholesale_electricity_price_data_monthly.csv')
+df = pd.read_csv('..\data\european_wholesale_electricity_price_data_monthly.csv')
 
 df['Date'] = pd.to_datetime(df['Date'])
 # Create a table with Date as index and countries as columns
